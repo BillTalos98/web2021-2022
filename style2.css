@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: rgba(0, 187, 245);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+  width: 500px;
+  height: 650px;
+  box-shadow: 0 0 40px 20px rgba(0, 187, 187, 0.26);
+  perspective: 1000px;
+}
+
+.inner-box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(har-file.jpg);
+  padding: 100px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .container{
+      width: 100%;
+      height: 100%;
+      font-family: sans-serif;
+      background: rgba(0, 187, 245);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .card{
+    width: 500px;
+    height: 650px;
+    box-shadow: 0 0 40px 20px rgba(0, 187, 187, 0.26);
+    perspective: 1000px;
+  }
+
+  .inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(har-file.jpg);
+    padding: 100px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .container{
+      width: 100%;
+      height: 100%;
+      font-family: sans-serif;
+      background: rgba(0, 187, 245);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .card{
+    width: 500px;
+    height: 650px;
+    box-shadow: 0 0 40px 20px rgba(0, 187, 187, 0.26);
+    perspective: 1000px;
+  }
+
+  .inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(har-file.jpg);
+    padding: 100px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+  }
+}
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .container{
+      width: 100%;
+      height: 100%;
+      font-family: sans-serif;
+      background: rgba(0, 187, 245);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .card{
+    width: 500px;
+    height: 650px;
+    box-shadow: 0 0 40px 20px rgba(0, 187, 187, 0.26);
+    perspective: 1000px;
+  }
+
+  .inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(har-file.jpg);
+    padding: 100px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+  }
+}
+
+// Medium devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .container{
+      width: 100%;
+      height: 100%;
+      font-family: sans-serif;
+      background: rgba(0, 187, 245);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .card{
+    width: 500px;
+    height: 650px;
+    box-shadow: 0 0 40px 20px rgba(0, 187, 187, 0.26);
+    perspective: 1000px;
+  }
+
+  .inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(har-file.jpg);
+    padding: 100px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+  }
+}

@@ -1,0 +1,303 @@
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+ }
+ body{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+      position: relative;
+      font-family: 'verdana',sans-serif;
+ }
+
+ .container{
+   width: 100%;
+   height: 100%;
+   background-color: var(--dark-color);
+ }
+
+ .card-header{
+   width: 100%;
+   height: 100%;
+   background-color: var(--dark-color);
+ }
+
+ .heading{
+      background-color: var(--light-color);
+ }
+
+ th{
+      padding: 10px 0;
+      color: var(--light-color);
+ }
+ data{
+      text-align: center;
+      color: var(--light-color);
+ }
+ td{
+      padding: 15px 0;
+      color: var(--light-color);
+ }
+ #btn{
+      text-decoration: none;
+      color: #FFF;
+      background-color:var(--primary-color);
+      padding: 5px 20px;
+      border-radius: 3px;
+ }
+ #btn:hover{
+      background-color: #c0392b;
+ }
+
+ label, h3, h4{
+   color: #FFF;
+ }
+
+ // X-Small devices (portrait phones, less than 576px)
+ // No media query for `xs` since this is the default in Bootstrap
+
+ // Small devices (landscape phones, 576px and up)
+ @media (min-width: 576px) {
+   *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+    }
+    body{
+         width: 100%;
+         height: 100%;
+         background-color: var(--dark-color);
+         position: relative;
+         font-family: 'verdana',sans-serif;
+    }
+
+    .container{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .card-header{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .heading{
+         background-color: var(--light-color);
+    }
+
+    th{
+         padding: 10px 0;
+         color: var(--light-color);
+    }
+    data{
+         text-align: center;
+         color: var(--light-color);
+    }
+    td{
+         padding: 15px 0;
+         color: var(--light-color);
+    }
+    #btn{
+         text-decoration: none;
+         color: #FFF;
+         background-color:var(--primary-color);
+         padding: 5px 20px;
+         border-radius: 3px;
+    }
+    #btn:hover{
+         background-color: #c0392b;
+    }
+
+    label, h3, h4{
+      color: #FFF;
+    }
+ }
+
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) {
+   *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+    }
+    body{
+         width: 100%;
+         height: 100%;
+         background-color: var(--dark-color);
+         position: relative;
+         font-family: 'verdana',sans-serif;
+    }
+
+    .container{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .card-header{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .heading{
+         background-color: var(--light-color);
+    }
+
+    th{
+         padding: 10px 0;
+         color: var(--light-color);
+    }
+    data{
+         text-align: center;
+         color: var(--light-color);
+    }
+    td{
+         padding: 15px 0;
+         color: var(--light-color);
+    }
+    #btn{
+         text-decoration: none;
+         color: #FFF;
+         background-color:var(--primary-color);
+         padding: 5px 20px;
+         border-radius: 3px;
+    }
+    #btn:hover{
+         background-color: #c0392b;
+    }
+
+    label, h3, h4{
+      color: #FFF;
+    }
+ }
+
+ // Medium devices (desktops, 992px and up)
+ @media (min-width: 992px) {
+   *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+    }
+    body{
+         width: 100%;
+         height: 100%;
+         background-color: var(--dark-color);
+         position: relative;
+         font-family: 'verdana',sans-serif;
+    }
+
+    .container{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .card-header{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .heading{
+         background-color: var(--light-color);
+    }
+
+    th{
+         padding: 10px 0;
+         color: var(--light-color);
+    }
+    data{
+         text-align: center;
+         color: var(--light-color);
+    }
+    td{
+         padding: 15px 0;
+         color: var(--light-color);
+    }
+    #btn{
+         text-decoration: none;
+         color: #FFF;
+         background-color:var(--primary-color);
+         padding: 5px 20px;
+         border-radius: 3px;
+    }
+    #btn:hover{
+         background-color: #c0392b;
+    }
+
+    label, h3, h4{
+      color: #FFF;
+    }
+ }
+
+ // Medium devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) {
+   *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+    }
+    body{
+         width: 100%;
+         height: 100%;
+         background-color: var(--dark-color);
+         position: relative;
+         font-family: 'verdana',sans-serif;
+    }
+
+    .container{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .card-header{
+      width: 100%;
+      height: 100%;
+      background-color: var(--dark-color);
+    }
+
+    .heading{
+         background-color: var(--light-color);
+    }
+
+    th{
+         padding: 10px 0;
+         color: var(--light-color);
+    }
+    data{
+         text-align: center;
+         color: var(--light-color);
+    }
+    td{
+         padding: 15px 0;
+         color: var(--light-color);
+    }
+    #btn{
+         text-decoration: none;
+         color: #FFF;
+         background-color:var(--primary-color);
+         padding: 5px 20px;
+         border-radius: 3px;
+    }
+    #btn:hover{
+         background-color: #c0392b;
+    }
+
+    label, h3, h4{
+      color: #FFF;
+    }
+ }
